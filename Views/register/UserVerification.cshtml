@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "UserVerification";
+}
+
+<h2>User Verification Process</h2>
+<div class="jumbotron">
+    <div class="danger alert-danger">
+        <strong>Message..!!</strong>  @ViewBag.Message
+        @Html.ActionLink("Login", "Login", "register", new { @class = "btn btn-primary" });
+    </div>
+</div>
